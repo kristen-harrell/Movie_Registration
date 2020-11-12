@@ -8,39 +8,54 @@
 
 @Html.ValidationSummary()
 
-<form action="RegisteredMovies" method="post">
-
-    ID: <input type="number" name="ID" />
+<form action="RegisteredMovies" method="post" autocomplete="off">
+    <label for="ID">ID:</label><br>
+    <input type="number" name="ID" />
     <br>
-    Title:<input type="text" name="Title" />
+    <label for="Title">Title:</label><br>
+    <input type="text" name="Title" />
     <br>
-    Genre:<input type="text" name="Genre" />
+    <label for="genre">Choose a genre:</label>
     <br>
-    Year:<input type="number" name="Year"/>
+    <select id="genre" name="genre">
+        <option value="action">Action</option>
+        <option value="comedy">Comedy</option>
+        <option value="documentary">Documentary</option>
+        <option value="foreign">Foreign</option>
+        <option value="horror">Horror</option>
+        <option value="kids">Kids</option>
+        <option value="romance">Romance</option>
+    </select>
     <br>
-    Actors: <input type="text" name="Actors" />
+    <br><label for="Year">Year Released:</label><br>
+    <input type="number" name="Year" />
     <br>
-    Directors: <input type="text" name="Directors" />
+    <label for="actors">Actors:</label><br>
+    <input type="text" name="Actors" />
     <br>
-    <input type="submit" value="Add!" />
+    <label for="Directors">Directors:</label><br>
+    <input type="text" name="Directors" />
+    <br><br>
+    <input type="submit" value="Submit" />
+    <input type="reset"/>
 
 </form>
 
-@*when I try to prefil the values, it breaks!
-<form action="RegisteredMovies" method="post">
+    @*when I try to prefil the values, it breaks!
+        <form action="RegisteredMovies" method="post">
 
-    ID: <input type="number" name="ID" value="@Model.ID" />
-    <br>
-    Title:<input type="text" name="Title" value="@Model.Title" />
-    <br>
-    Genre:<input type="text" name="Genre" value="@Model.Genre" />
-    <br>
-    Year:<input type="number" name="Year" value="@Model.Year" />
-    <br>
-    Actors: <input type="text" name="Actors" value="@Model.Actors" />
-    <br>
-    Directors: <input type="text" name="Directors" value="@Model.Directors" />
-    <br>
-    <input type="submit" value="Add!" />
+            ID: <input type="number" name="ID" value="@Model.ID" />
+            <br>
+            Title:<input type="text" name="Title" value="@Model.Title" />
+            <br>
+            Genre:<input type="text" name="Genre" value="@Model.Genre" />
+            <br>
+            Year:<input type="number" name="Year" value="@Model.Year" />
+            <br>
+            Actors: <input type="text" name="Actors" value="@Model.Actors" />
+            <br>
+            Directors: <input type="text" name="Directors" value="@Model.Directors" />
+            <br>
+            <input type="submit" value="Add!" />
 
-</form>*@
+        </form>*@

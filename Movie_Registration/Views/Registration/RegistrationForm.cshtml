@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "RegistrationForm";
+}
+@model Movie
+<h1>Registration Form</h1>
+<h5>Let's get a movie registered</h5>
+
+@Html.ValidationSummary()
+
+<form action="RegisteredMovies" method="post">
+
+    ID: <input type="number" name="ID" />
+    <br>
+    Title:<input type="text" name="Title" />
+    <br>
+    Genre:<input type="text" name="Genre" />
+    <br>
+    Year:<input type="number" name="Year"/>
+    <br>
+    Actors: <input type="text" name="Actors" />
+    <br>
+    Directors: <input type="text" name="Directors" />
+    <br>
+    <input type="submit" value="Add!" />
+
+</form>
+
+@*when I try to prefil the values, it breaks!
+<form action="RegisteredMovies" method="post">
+
+    ID: <input type="number" name="ID" value="@Model.ID" />
+    <br>
+    Title:<input type="text" name="Title" value="@Model.Title" />
+    <br>
+    Genre:<input type="text" name="Genre" value="@Model.Genre" />
+    <br>
+    Year:<input type="number" name="Year" value="@Model.Year" />
+    <br>
+    Actors: <input type="text" name="Actors" value="@Model.Actors" />
+    <br>
+    Directors: <input type="text" name="Directors" value="@Model.Directors" />
+    <br>
+    <input type="submit" value="Add!" />
+
+</form>*@

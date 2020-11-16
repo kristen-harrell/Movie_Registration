@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iwaeFF2kN5BQJkXMJK7It6pxPBhPHq4b5HBQrmJi6SS+p7jtayl4vt+ajQxEcxOoVktjfXsLoOfkeogaTnsxyQ==",
+  "dgSpecHash": "ZcRfO0o1V4MTHLMK6o+mXABbnwzX3IWuFDMyHTrb2l01kvXUEd5qMAhiRGlQXWaZTLnAwDyzQiKy0SlC9UvLAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\harre\\source\\repos\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
+  "projectFilePath": "C:\\Users\\harre\\Desktop\\movie lab\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\harre\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\harre\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

@@ -6074,11 +6074,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\harre\\source\\repos\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
+      "projectUniqueName": "C:\\Users\\harre\\Desktop\\movie lab\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
       "projectName": "Movie_Registration",
-      "projectPath": "C:\\Users\\harre\\source\\repos\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
+      "projectPath": "C:\\Users\\harre\\Desktop\\movie lab\\Movie_Registration\\Movie_Registration\\Movie_Registration.csproj",
       "packagesPath": "C:\\Users\\harre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\harre\\source\\repos\\Movie_Registration\\Movie_Registration\\obj\\",
+      "outputPath": "C:\\Users\\harre\\Desktop\\movie lab\\Movie_Registration\\Movie_Registration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\harre\\AppData\\Roaming\\NuGet\\NuGet.Config",

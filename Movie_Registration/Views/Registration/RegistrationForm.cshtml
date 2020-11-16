@@ -2,11 +2,20 @@
 @{
     ViewData["Title"] = "RegistrationForm";
 }
+
+
+
 @model Movie
 <h1>Registration Form</h1>
 <h5>Let's get a movie registered</h5>
 
 @Html.ValidationSummary()
+
+
+<br>
+<h5>Need Help?</h5>
+<p>Visit <a href="https://www.imdb.com/"> IMDB </a>if you need more info on the movie you are entering</p>
+<br>
 
 <form action="RegisteredMovies" method="post" autocomplete="off">
     <label for="ID">ID:</label><br>
@@ -37,25 +46,25 @@
     <input type="text" name="Directors" />
     <br><br>
     <input type="submit" value="Submit" />
-    <input type="reset"/>
+    <input type="reset" />
 
 </form>
 
-    @*when I try to prefil the values, it breaks!
-        <form action="RegisteredMovies" method="post">
+@*when I try to prefil the values, it breaks!
+    <form action="RegisteredMovies" method="post">
 
-            ID: <input type="number" name="ID" value="@Model.ID" />
-            <br>
-            Title:<input type="text" name="Title" value="@Model.Title" />
-            <br>
-            Genre:<input type="text" name="Genre" value="@Model.Genre" />
-            <br>
-            Year:<input type="number" name="Year" value="@Model.Year" />
-            <br>
-            Actors: <input type="text" name="Actors" value="@Model.Actors" />
-            <br>
-            Directors: <input type="text" name="Directors" value="@Model.Directors" />
-            <br>
-            <input type="submit" value="Add!" />
+        ID: <input type="number" name="ID" value="@Model.ID" />
+        <br>
+        Title:<input type="text" name="Title" value="@Model.Title" />
+        <br>
+        Genre:<input type="text" name="Genre" value="@Model.Genre" />
+        <br>
+        Year:<input type="number" name="Year" value="@Model.Year" />
+        <br>
+        Actors: <input type="text" name="Actors" value="@Model.Actors" />
+        <br>
+        Directors: <input type="text" name="Directors" value="@Model.Directors" />
+        <br>
+        <input type="submit" value="Add!" />
 
-        </form>*@
+    </form>*@
